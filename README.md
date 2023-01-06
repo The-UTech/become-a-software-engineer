@@ -4,8 +4,11 @@ description: Con đường để trở thành một Software Engineer...
 
 # Become a Software Engineer!
 
-How to become a Software Engineer!
+Nhân một ngày đẹp trời, vào một dịp đặc biệt, tụi mình quyết định xây dựng một blog tổng hợp những điều hay ho mà tụi mình có thể tìm hiểu được về hành trình trở thành một Software Engineer chuyên nghiệp. Hãy follow và ủng hộ tụị mình nhé!
 
-Netflix accounts for about 15% of the world's internet bandwidth traffic. Serving over 6 billion hours of content per month, globally, to nearly every country in the world. Building a robust, highly scalable, reliable, and efficient backend system is no small engineering feat but the ambitious team at Netflix has proven that problems exist to be solved.
+Nội dung thông tin của blog này được tổng hợp bởi dungdo và thanhnb98!
 
-thanhnb
+
+
+UTech 06/01/2023!
+
