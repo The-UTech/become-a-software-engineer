@@ -4,7 +4,7 @@
 
 ## Design System
 
-* [Netflix Design](design-system/netflix-design.md)
+* [Black Friday Flash Sale](design-system/netflix-design.md)
 
 ## AWS
 
