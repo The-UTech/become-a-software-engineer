@@ -1,6 +1,6 @@
 # Table of contents
 
-* [become-a-software-engineer](README.md)
+* [Become a Software Engineer!](README.md)
 
 ## Design System
 

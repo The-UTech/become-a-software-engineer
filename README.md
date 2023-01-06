@@ -1,4 +1,8 @@
-# become-a-software-engineer
+---
+description: Con đường để trở thành một Software Engineer...
+---
+
+# Become a Software Engineer!
 
 How to become a Software Engineer!
 
