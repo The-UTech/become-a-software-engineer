@@ -23,9 +23,9 @@ Hệ thống cần phải tuân thủ các nguyên tắc thiết kế (design pr
 5. Overselling is bad: Bán quá nhiều là không tốt, cẩn thận trong việc giảm lượng hàng còn lại trong kho.
 6. Trải nghiệm người dùng là quan trọng: Chúng ta hoàn toàn không muốn khi khách hàng đã lựa chọn order thành công, nhưng sau đó lại thông báo với người dùng rằng số lượng sản phẩm còn lại không khả dụng (không còn). Tình trạng này chắc hẳn nhiều bạn đã gặp phải khi săn sale shopee, add sản phẩm vào giỏ hàng nhưng khi thanh toán lại nhận được thông báo, sản phẩm đã hết.
 
+Trong bài viết này, chúng ta đã đề cập tới một số khái niệm như [CDN](https://aws.amazon.com/vi/cloudfront/), [NGINX](https://www.nginx.com/) những khái niệm này sẽ được tìm hiểu ở những bài viết sau, cùng với cơ chế [load balancing](https://www.google.com/search?q=load+balancing\&oq=load+balancing\&aqs=chrome..69i57j0i512l9.759j0j4\&sourceid=chrome\&ie=UTF-8). Các bạn cùng chờ đón nhé!
+
 Nội dung trên được dịch lại từ [https://blog.bytebytego.com/p/black-friday-flash-sale](https://blog.bytebytego.com/p/black-friday-flash-sale)
-
-
 
 Tìm hiểu cách xây dựng kiến trúc của Netflix:\
 [https://utech-organization.gitbook.io/system-design/](https://utech-organization.gitbook.io/system-design/)
