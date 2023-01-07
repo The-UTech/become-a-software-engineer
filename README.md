@@ -2,13 +2,20 @@
 description: Con đường để trở thành một Software Engineer...
 ---
 
-# Become a Software Engineer!
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
 
-Nhân một ngày đẹp trời, vào một dịp đặc biệt, tụi mình quyết định xây dựng một blog tổng hợp những điều hay ho mà tụi mình có thể tìm hiểu được về hành trình trở thành một Software Engineer chuyên nghiệp. Hãy follow và ủng hộ tụi mình nhé!
+## Hi there 👋
 
-Nội dung thông tin của blog này được tổng hợp bởi dungdo và thanhnb98!
+Nhân một ngày đẹp trời, tụi mình những **báo thủ** quyết định xây dựng một blogs tổng hợp những điều hay ho mà tụi mình có thể tìm hiểu được về hành trình trở thành những **báo thủ** chuyên nghiệp :muscle:.
 
+## Blog Posts :writing_hand:
+- [UTech Gitbook](https://utech-organization.gitbook.io)
 
+## Contributors ✨
+Cảm ơn các **báo thủ** đã đóng góp 😜
 
-UTech 06/01/2023!
-
+<a href="https://github.com/The-UTech/become-a-software-engineer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=The-UTech/become-a-software-engineer" />
+</a>
