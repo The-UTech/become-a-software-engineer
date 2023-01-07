@@ -1,7 +1,7 @@
 ---
 description: >-
   Một hệ thống thanh toán sẽ nên được thiết kế như thế nào? Chúng ta cùng tìm
-  hiểu nhé!
+  hiểu trong nội dung của bài viết này nhé!
 ---
 
 # Payment System
@@ -23,6 +23,8 @@ Luồng xử lý sẽ như sau:
    _(_[_A payment ledger_](https://baremetrics.com/blog/what-is-a-payment-ledger)_: Sổ cái thanh toán là một công cụ ghi sổ kế toán kinh doanh để ghi lại và theo dõi các khoản thanh toán dành cho các mục đích cụ thể. Các công ty sử dụng chúng cho các sự kiện đặc biệt và các hoạt động hàng ngày ghi lại số tiền nợ công ty.)_
 9. The Ledger Service sẽ thêm các thông tin sổ cái mới (ledger information) vào database.
 10. Payment service providers (PSP) hoặc ngân hàng sẽ gửi các hồ sơ thanh toán (files) tới khách hàng của họ. Thông tin thanh toán sẽ chứa số dư, cùng với tất cả các thông tin giao dịch mà khách hàng đã sử dụng.
+
+Trong bài tiếp theo, chúng ta sẽ tìm hiểu xem, bằng cách nào, chúng ta có thể khớp các lệnh mua và bán trên các sàn chứng khoán, crypto nhé!
 
 Nội dung trên được dịch lại từ [https://blog.bytebytego.com/p/payment-system](https://blog.bytebytego.com/p/payment-system)
 
