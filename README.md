@@ -10,9 +10,6 @@ description: Con đường để trở thành một Software Engineer...
 
 Nhân một ngày đẹp trời, tụi mình những **báo thủ** quyết định xây dựng một blogs tổng hợp những điều hay ho mà tụi mình có thể tìm hiểu được về hành trình trở thành những **báo thủ** chuyên nghiệp :muscle:.
 
-## Blog Posts :writing_hand:
-- [UTech Gitbook](https://utech-organization.gitbook.io)
-
 ## Contributors ✨
 Cảm ơn các **báo thủ** đã đóng góp 😜
 
