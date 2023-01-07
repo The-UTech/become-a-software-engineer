@@ -1,5 +1,7 @@
 # AWS IAM (Identity and Access Management) basics
 
+🚀 Authors: [@thanhnb](https://github.com/nbthanh98)
+
 ![aws-iam-overview](../.gitbook/assets/IAM-Identities-and-permission.png)
 
 - [AWS IAM (Identity and Access Management) basics](#aws-iam-identity-and-access-management-basics)
