@@ -1,15 +1,8 @@
 # AWS IAM (Identity and Access Management) basics
 
-![aws-iam-overview](../.gitbook/assets/IAM-Identities-and-permission.png)
+🚀 Authors: [@thanhnb](https://github.com/nbthanh98)
 
-- [AWS IAM (Identity and Access Management) basics](#aws-iam-identity-and-access-management-basics)
-  - [1. Giới thiệu chung](#1-giới-thiệu-chung)
-  - [2. Giới thiệu AWS Identity and Access Management (IAM)](#2-giới-thiệu-aws-identity-and-access-management-iam)
-    - [1. IAM là gì?](#1-iam-là-gì)
-    - [2. Tại sao lại cần đến dịch vụ IAM?](#2-tại-sao-lại-cần-đến-dịch-vụ-iam)
-    - [3. Một số thành phần trong IAM](#3-một-số-thành-phần-trong-iam)
-  - [3. IAM Identity Policy (IAM Policy)](#3-iam-identity-policy-iam-policy)
-  - [4. Tổng kết](#4-tổng-kết)
+![aws-iam-overview](../.gitbook/assets/IAM-Identities-and-permission.png)
 
 ## 1. Giới thiệu chung
 
