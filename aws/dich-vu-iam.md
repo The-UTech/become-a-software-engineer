@@ -45,14 +45,60 @@ AWS IAM cho phép tạo 3 loại Identity objects như hình trên đó là:
 
 //some contents here.
 
-## 4. IAM Identity Policy (IAM Policy)
+## 4. Các thành phần của IAM Identity Policy (IAM Policy)
 
-IAM Policy là một loại của policy và IAM Policies sẽ được gán với các Identity(IAM User, IAM Group, IAM Role). IAM Policy gồm các rule để mô tả việc cho phép (allow) hoặc không cho phép (deny) truy cập đến các dịch vụ trên AWS. IAM Policy được viết bằng Json. Có 2 loại policies đó là:
+IAM Policies sẽ được gán với các Identity(IAM User, IAM Group, IAM Role). IAM Policy gồm các rule để mô tả việc cho phép (allow) hoặc không cho phép (deny) truy cập đến các dịch vụ trên AWS. IAM Policy được viết bằng Json. Có 2 loại policies đó là:
 
-- `Managed policies`: Những policies này có thể được sử dụng lại và có thể gắn với nhiều entity. AWS mặc định đã tạo ra những `managed policies`, bạn có thể sử dụng nó luôn hoặc tự tạo các `managed policies` cho mình.
+- `Identity-based policies`: Identity-based policies được gắn với AWS Identities giống như (user, group hoặc role). VD giờ có 1 IAM User là `ThanhNB` chẳng hạn, muốn xem được các item trong S3 bucket là `example-s3-bucket`. Identity-based policies chia thêm thành các loại sau:
 
-- `Inline policies`: Những policies này được gắn trực tiếp vào IAM entity. Nhưng các policies này thì không tái sử dụng được và không thể gắn cho nhiều IAM entity.
+  - `Managed policies`: Những policies này có thể được sử dụng lại và có thể gắn với nhiều entity. AWS mặc định đã tạo ra những `managed policies`, bạn có thể sử dụng nó luôn hoặc tự tạo các `managed policies` cho mình.
 
-### 4.1 Cấu trúc của IAM Policy
+    - `AWS Managed`: Những policies này được tạo, update và quản lý bởi AWS. Mặc định thì các policies do AWS managed đã được tạo trước và có sẵn trong tài khoản AWS của bạn. 
+
+    - `Customer Managed`: Những policies này do người dùng tự tạo, tự quản lý.
+
+  - `Inline policies`: Những policies này được gắn trực tiếp vào IAM entity. Nhưng các policies này thì KHÔNG tái sử dụng được và KHÔNG thể gắn cho nhiều IAM entity.
+
+- `Resource-based policies`: Resource-based policies là những policies được gắn vào AWS resources giống như S3, SQS,...
+
+### 4.1 Identity-based policies
+
+Identity-based policies là gì?
+
+Identity-base policies định nghĩa một Identity(users, roles) có thể làm gì? giống như là có thể access đến một S3 Bucket hay không. Việc bạn gán các policies cho Identity giống như bạn các cấp quyền cho Identity truy cập đến các AWS resource. Bạn có thể tham khảo thêm [ở đây](https://github.com/awsdocs/aws-glue-developer-guide/blob/master/doc_source/using-identity-based-policies.md).
+
+Cách define Identity-based policies?
+
+```json
+{
+    // "Version" là version của policies language(2012-10-17).
+	"Version": "2012-10-17",
+    // "Statement": là một mảng các statment policy.
+	"Statement": [
+		{
+            // "Sid": trường này optional, dùng để phân biệt giữa các stament bên trong mảng "Statement"
+            "Sid": "AllowS3GetObject",
+
+            // "Effect": mô tả việc cho phép (Allow) hoặc KHÔNG cho phép (Deny).
+            "Effect": "Allow",
+
+            // "Action": mô tả danh sách cách hành động mà policy cho phép (Allow) hoặc KHÔNG cho phép (Deny).
+			"Action": [
+				"s3:GetObject"
+			],
+
+            // "Resource": mô tả các resource mà policy muốn tương tác.
+			"Resource": [
+                "arn:aws:s3:::<bucket_name>/**"
+            ]
+		}
+	]
+}
+```
+
+Hands-on tạo Identity-base policies
+
+
+### 4.2 Resource-based policies
 
 ## 5. Tổng kết
