@@ -52,12 +52,15 @@ Một IAM identity đại diện cho một user, user groups và roles, và có 
 Step 1: Vào [AWS Console](https://aws.amazon.com/console/) => Login tài khoản AWS.
 
 Step 2: Tìm kiếm dịch vụ IAM ở ô search.
+
 ![tao-iam-user](../.gitbook/assets/tao-iam-user.png)
 
 Step 3: Click vào "User" => Click "Add users".
+
 ![tao-iam-user](../.gitbook/assets/tao-iam-user-3.png)
 
 Step 4: Điền các thông tin của IAM user.
+
 ![tao-iam-user](../.gitbook/assets/tao-iam-user-5.png)
 
 Giải thích:
@@ -69,6 +72,7 @@ Giải thích:
 - Chọn "Next: Permissions" để chuyển sang phần phân quyền cho IAM user.
 
 Step 5: Phần này thì sẽ phân quyền cho IAM user bằng cách: thêm IAM user vào user groups, copy quyền từ các IAM user hiện có hoặc là gán các policies. Phần này tạm thời mình sẽ không thêm quyền gì cho IAM user này cả, vây khi tạo IAM user này thì user sẽ không có quyền.
+
 ![tao-iam-user](../.gitbook/assets/tao-iam-user-6.png)
 
 Step 6, 7, 8: Thêm tag cho IAM User => Review lại IAM User muốn tạo => Thực hiện tạo IAM User.
@@ -78,9 +82,11 @@ Step 6, 7, 8: Thêm tag cho IAM User => Review lại IAM User muốn tạo => Th
 Step 1: Vào [AWS Console](https://aws.amazon.com/console/) => Login tài khoản AWS.
 
 Step 2: Tìm kiếm dịch vụ IAM ở ô search.
+
 ![tao-iam-user-group](../.gitbook/assets/tao-iam-user.png)
 
 Step 3: Click vào "User groups" => "Create user group".
+
 ![tao-iam-user-group](../.gitbook/assets/tao-iam-user-group.png)
 
 Giải thích:
@@ -95,15 +101,20 @@ Step 4: Click "Create group".
 Step 1: Vào [AWS Console](https://aws.amazon.com/console/) => Login tài khoản AWS.
 
 Step 2: Tìm kiếm dịch vụ IAM ở ô search.
+
 ![tao-iam-user-group](../.gitbook/assets/tao-iam-user.png)
 
 Step 3: Click vào "User groups" => Click vào user group "test-iam-user-group" (mới tạo ở phần 3.2).
+
 ![add-iam-user-to-user-group](../.gitbook/assets/add-iam-user-to-user-group.png)
 
-Step 4: Click "Add users"
+Step 4: Click "Add users".
+
 ![add-iam-user-to-user-group](../.gitbook/assets/add-iam-user-to-user-group-2.png)
 
+
 Step 5: Chon các IAM user muốn thêm vào group. Ở đây mình chọn IAM user "test-iam" (đã tạo ở phần 3.1).
+
 ![add-iam-user-to-user-group](../.gitbook/assets/add-iam-user-to-user-group-3.png)
 
 ## 4. Các thành phần của IAM Identity Policy (IAM Policy)
