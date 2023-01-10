@@ -7,6 +7,7 @@
 * [Black Friday Flash Sale](design-system/netflix-design.md)
 * [Payment System](design-system/payment-system.md)
 * [Match Buy and Sell stock orders](design-system/match-buy-and-sell-stock-orders.md)
+* [Proximity service](design-system/proximity-service.md)
 
 ## AWS
 
