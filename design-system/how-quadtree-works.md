@@ -7,11 +7,11 @@ description: >-
 
 # How quadtree works
 
-Một cây tư giác (quadtree) là một cấu trúc dữ liệu thường được sử dụng để phân chia vùng không gian hai chiều bằng cách chia nhỏ nó the cách đệ quy thành bốn góc phần tư (lưới - grids) cho đến khi nội dung của lưới đáp ứng các tiêu chi nhất định (xem sơ đồ dưới đây)
+Một cây tư giác (quadtree) là một cấu trúc dữ liệu thường được sử dụng để phân chia vùng không gian hai chiều bằng cách chia nhỏ nó theo cách đệ quy thành bốn góc phần tư (lưới - grids) cho đến khi nội dung của lưới đáp ứng các tiêu chi nhất định (xem sơ đồ dưới đây)
 
 <figure><img src="../.gitbook/assets/quadtree diagram.jpeg" alt=""><figcaption><p>Quadtree diagram</p></figcaption></figure>
 
-Quadtree là một cấu trúc dữ liệu trong bộ nhớ **(in memory data structure)** và nó không phải là một giải pháp database **(database solution)**. Nó chạy trên mỗi máy chủ LBS (Location-Based Service, chúng ta đã nói ở bài trước), và cấu trúc dữ liệu này được build trên server tại thời điểm khởi động máy chủ.
+Quadtree là một cấu trúc dữ liệu được lưu trong bộ nhớ **(in memory data structure),** nó không phải là một giải pháp database **(database solution)**. Nó chạy trên mỗi máy chủ LBS (Location-Based Service - chúng ta đã nói ở bài trước), và cấu trúc dữ liệu này được build trên server tại thời điểm khởi động máy chủ.
 
 Sơ đồ thứ hai giải thích chi tiến hơn về quá trình xây dựng quadtree. Root node đại diện cho toàn bộ bản đồ của thế giới. Root note được chia đệ quy thành 4 góc phần tư cho đến khi không còn node nào có hơn 100 doanh nghiệp.
 
@@ -25,7 +25,7 @@ Sơ đồ thứ hai giải thích chi tiến hơn về quá trình xây dựng q
 
 * Nó có thể mất vài phút để build một quadtree vào memory với 200 triệu doanh nghiệp tại thời điểm server start-up.
 * Trong khi quadtree được build, server không thể phục vụ lưu lượng truy cập.
-* Do đó, chúng ta nên triển khai dần dần một bản phát hành mới của máy chủ cho một nhóm nhỏ máy chủ tại một thời điểm. Điều này tránh việc mất một phần lớn cụm máy chủ ngoại tuyến (server cluster offline) và gây ra tình trạng mất kết nối dịch vụ.
+* Do đó, tại một thời điểm chúng ta nên triển khai dần dần một bản phát hành mới của máy chủ cho một nhóm nhỏ máy chủ. Điều này tránh việc mất một phần lớn cụm máy chủ ngoại tuyến (server cluster offline) và gây ra tình trạng mất kết nối dịch vụ.
 
 
 
