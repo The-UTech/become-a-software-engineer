@@ -9,6 +9,7 @@
 * [Match Buy and Sell stock orders](design-system/match-buy-and-sell-stock-orders.md)
 * [Proximity service](design-system/proximity-service.md)
 * [How quadtree works](design-system/how-quadtree-works.md)
+* [Page 2](design-system/page-2.md)
 
 ## AWS
 
@@ -18,3 +19,7 @@
 ## Design Pattern
 
 * [Page 1](design-pattern/page-1.md)
+
+## OTHERS
+
+* [8-week plan to help you prepare for system design interviews](others/8-week-plan-to-help-you-prepare-for-system-design-interviews.md)
